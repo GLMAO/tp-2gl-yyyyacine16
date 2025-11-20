@@ -2,9 +2,9 @@ package com.polytech.tp;
 
 public class CoursBuilder {
     // TODO: Implémenter le pattern Builder
-    
-    
-   private String matiere;
+
+
+    private String matiere;
     private String enseignant;
     private String salle;
     private String date;
@@ -53,7 +53,7 @@ public class CoursBuilder {
         return this;
     }
 
-   
+
     public Cours build() {
         return new Cours(
                 matiere,
